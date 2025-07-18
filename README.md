@@ -1,56 +1,56 @@
 # 👋 Pablo Sturm – DevOps Engineer in Progress
 
 Hi! I'm Pablo, a multilingual IT professional with over 16 years of experience in systems administration, AV/IT, and infrastructure.  
-I'm currently transitioning into a **DevOps/Site Reliability Engineer** role focused on:
+I'm currently transitioning into a **DevOps/Site Reliability Engineer** role with a focus on:
 
-🚀 Microsoft Azure (Virtual Machines, Storage, Networking)  
+🚀 Microsoft Azure (VMs, Networking, Storage)  
 🔐 Entra ID & Microsoft Graph API  
 ⚙️ PowerShell scripting & automation  
-🧱 Infrastructure as Code (Terraform)  
-🔄 CI/CD with GitHub Actions and Azure DevOps  
+🧱 Infrastructure as Code with Terraform  
+🔄 CI/CD using GitHub Actions & Azure DevOps  
 📊 Monitoring with Grafana, Azure Monitor & App Insights
 
 ---
 
 ## 🛠️ Featured Repositories
 
-| Repo | Description |
-|------|-------------|
-| [`entra-id-powershell`](https://github.com/psturm79/entra-id-powershell) | Automate Entra ID user and group management using PowerShell + Graph API |
-| [`terraform-azure-lab`](https://github.com/psturm79/terraform-azure-lab) | Infrastructure as Code examples to deploy Azure resources |
-| [`azure-automation`](https://github.com/psturm79/azure-automation) | Scripts to automate Azure resource creation and management |
+| Repository | Description |
+|------------|-------------|
+| [`entra-id-powershell`](https://github.com/psturm79/entra-id-powershell) | Automate Entra ID user and group management using PowerShell and Microsoft Graph API |
+| [`terraform-azure-lab`](https://github.com/psturm79/terraform-azure-lab) | Infrastructure as Code examples to deploy and manage Azure resources |
+| [`azure-automation`](https://github.com/psturm79/azure-automation) | PowerShell scripts to automate Azure resource provisioning and configuration |
 
 ---
 
 📍 Based in the Netherlands 🇳🇱  
 🗣️ Languages: Spanish (native), English (C1), Portuguese (C1), Dutch (B2)  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/psturm79)
+🔗 [LinkedIn](https://www.linkedin.com/in/psturm79)
 
 ---
 
 ## 📂 Entra ID PowerShell Scripts
 
-The scripts are located in the `scripts/` folder inside this repository:
+Find all scripts inside the `scripts/` directory:
 
-- `Create-EntraUser.ps1`: Create a new Entra ID user.
-- `Clone-EntraUser.ps1`: Clone attributes from an existing user to a new user.
-- `Reset-Password.ps1`: Reset a user's password.
-- `Manage-Groups.ps1`: Add or remove users from groups.
+- `Create-EntraUser.ps1` – Create a new Entra ID user.
+- `Clone-EntraUser.ps1` – Clone an existing user's attributes to a new user.
+- `Reset-Password.ps1` – Reset an Entra user's password.
+- `Manage-Groups.ps1` – Add or remove users from Entra ID groups.
 
-### 💡 Usage Examples
+### 💡 Usage
 
-Run the scripts from the root folder like this:
-
-### 💡 Usage Examples
-
-Run the scripts from the root folder like this:
+You can run the scripts from the root folder:
 
 ```powershell
+# Create new user
 .\scripts\Create-EntraUser.ps1 -DisplayName "John Doe" -UserPrincipalName "john@domain.com" -Password "XxSecure123!"
 
+# Clone user
 .\scripts\Clone-EntraUser.ps1 -SourceUserPrincipalName "jane@domain.com" -NewUserPrincipalName "john@domain.com" -DisplayName "John Doe" -Password "XxSecure123!"
 
+# Reset password
 .\scripts\Reset-Password.ps1 -UserPrincipalName "john@domain.com" -NewPassword "NewP@ssword123"
 
+# Add user to group
 .\scripts\Manage-Groups.ps1 -Action Add -UserPrincipalName "john@domain.com" -GroupId "your-group-id"
-```
+
