@@ -27,5 +27,13 @@ I'm currently transitioning into a **DevOps/Site Reliability Engineer** role foc
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/psturm79)
 
 ---
+## 📂 Script List
+
+The scripts are located in the `scripts/` folder:
+
+- `Create-EntraUser.ps1`: Create a new Entra ID user.
+- `Clone-EntraUser.ps1`: Clone attributes from an existing user to a new user.
+- `Reset-Password.ps1`: Reset a user's password.
+- `Manage-Groups.ps1`: Add or remove users from groups.
 
 > 💡 *“Automating the boring, securing the critical, and building resilient systems.”*
