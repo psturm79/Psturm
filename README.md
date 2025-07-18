@@ -10,6 +10,11 @@ I'm currently transitioning into a **DevOps/Site Reliability Engineer** role wit
 🔄 CI/CD using GitHub Actions & Azure DevOps  
 📊 Monitoring with Grafana, Azure Monitor & App Insights
 
+![PowerShell](https://img.shields.io/badge/PowerShell-4F5B93?style=flat&logo=powershell&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+
 ---
 
 ## 🛠️ Featured Repositories
