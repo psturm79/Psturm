@@ -1,34 +1,28 @@
 # 👋 Pablo Sturm – DevOps Engineer in Progress
+
 ![PowerShell](https://img.shields.io/badge/PowerShell-4F5B93?style=flat&logo=powershell&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
 
-Hi! I'm Pablo, a multilingual IT professional with over 16 years of experience in systems administration, AV/IT, and infrastructure.  
-I'm currently transitioning into a **DevOps/Site Reliability Engineer** role with a focus on:
+---
 
-🚀 Microsoft Azure (VMs, Networking, Storage)  
-🔐 Entra ID & Microsoft Graph API  
-⚙️ PowerShell scripting & automation  
-🧱 Infrastructure as Code with Terraform  
-🔄 CI/CD using GitHub Actions & Azure DevOps  
-📊 Monitoring with Grafana, Azure Monitor & App Insights
+## About Me
+
+Hi! I'm Pablo Sturm, a multilingual IT professional with over **19 years** of experience in systems administration, AV/IT, and infrastructure.  
+Currently, I am transitioning into a **DevOps/Site Reliability Engineer** role focused on cloud automation, infrastructure as code, and scripting.
 
 ---
 
-## 🛠️ Featured Repositories
+## 🛠️ Skills & Technologies
 
-| Repository | Description |
-|------------|-------------|
-| [`entra-id-powershell`](https://github.com/psturm79/entra-id-powershell) | Automate Entra ID user and group management using PowerShell and Microsoft Graph API |
-| [`terraform-azure-lab`](https://github.com/psturm79/terraform-azure-lab) | Infrastructure as Code examples to deploy and manage Azure resources |
-| [`azure-automation`](https://github.com/psturm79/azure-automation) | PowerShell scripts to automate Azure resource provisioning and configuration |
-
----
-
-📍 Based in the Netherlands 🇳🇱  
-🗣️ Languages: Spanish (native), English (C1), Portuguese (C1), Dutch (B2)  
-🔗 [LinkedIn](https://www.linkedin.com/in/psturm79)
+- **Cloud Platforms:** Microsoft Azure (VMs, Storage, Networking)  
+- **Identity & Access Management:** Microsoft Entra ID & Microsoft Graph API  
+- **Scripting & Automation:** PowerShell, REST APIs  
+- **Infrastructure as Code:** Terraform  
+- **CI/CD:** GitHub Actions, Azure DevOps Pipelines  
+- **Monitoring:** Grafana, Azure Monitor, Application Insights  
+- **Languages:** Spanish (native), English (C1), Portuguese (C1), Dutch (B2)  
 
 ---
 
@@ -36,14 +30,14 @@ I'm currently transitioning into a **DevOps/Site Reliability Engineer** role wit
 
 Find all scripts inside the `scripts/` directory:
 
-- `Create-EntraUser.ps1` – Create a new Entra ID user.
-- `Clone-EntraUser.ps1` – Clone an existing user's attributes to a new user.
-- `Reset-Password.ps1` – Reset an Entra user's password.
+- `Create-EntraUser.ps1` – Create a new Entra ID user.  
+- `Clone-EntraUser.ps1` – Clone an existing user's attributes to a new user.  
+- `Reset-Password.ps1` – Reset an Entra user's password.  
 - `Manage-Groups.ps1` – Add or remove users from Entra ID groups.
 
-### 💡 Usage
+### 💡 Usage Examples
 
-You can run the scripts from the root folder:
+Run the scripts from the root folder like this:
 
 ```powershell
 # Create new user
@@ -57,4 +51,18 @@ You can run the scripts from the root folder:
 
 # Add user to group
 .\scripts\Manage-Groups.ps1 -Action Add -UserPrincipalName "john@domain.com" -GroupId "your-group-id"
+```
+## 📂 Featured Repositories
 
+| Repository                                                               | Description                                                       |
+| ------------------------------------------------------------------------ | ----------------------------------------------------------------- |
+| [`entra-id-powershell`](https://github.com/psturm79/entra-id-powershell) | PowerShell scripts to automate Entra ID user and group management |
+| [`terraform-azure-lab`](https://github.com/psturm79/terraform-azure-lab) | Terraform examples for deploying Azure infrastructure             |
+| [`azure-automation`](https://github.com/psturm79/azure-automation)       | PowerShell scripts for Azure resource automation                  |
+
+📫 Contact Me
+LinkedIn: https://www.linkedin.com/in/psturm79
+
+Email: pcsturm79@gmail.com
+
+💡 “Automation is the future of IT – I build it script by script.”
