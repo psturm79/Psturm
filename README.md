@@ -41,6 +41,10 @@ The scripts are located in the `scripts/` folder inside this repository:
 
 Run the scripts from the root folder like this:
 
+### 💡 Usage Examples
+
+Run the scripts from the root folder like this:
+
 ```powershell
 .\scripts\Create-EntraUser.ps1 -DisplayName "John Doe" -UserPrincipalName "john@domain.com" -Password "XxSecure123!"
 
@@ -49,4 +53,4 @@ Run the scripts from the root folder like this:
 .\scripts\Reset-Password.ps1 -UserPrincipalName "john@domain.com" -NewPassword "NewP@ssword123"
 
 .\scripts\Manage-Groups.ps1 -Action Add -UserPrincipalName "john@domain.com" -GroupId "your-group-id"
-
+```
