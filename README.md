@@ -43,3 +43,10 @@ Run the scripts from the root folder like this:
 
 ```powershell
 .\scripts\Create-EntraUser.ps1 -DisplayName "John Doe" -UserPrincipalName "john@domain.com" -Password "XxSecure123!"
+
+.\scripts\Clone-EntraUser.ps1 -SourceUserPrincipalName "jane@domain.com" -NewUserPrincipalName "john@domain.com" -DisplayName "John Doe" -Password "XxSecure123!"
+
+.\scripts\Reset-Password.ps1 -UserPrincipalName "john@domain.com" -NewPassword "NewP@ssword123"
+
+.\scripts\Manage-Groups.ps1 -Action Add -UserPrincipalName "john@domain.com" -GroupId "your-group-id"
+
